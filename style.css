@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Cor de fundo suave para a página */
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc00; /* Amarelo vibrante para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333; /* Cor escura para o título */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Seções de inscrição e contato */
+section {
+    margin-bottom: 30px;
+    background-color: #fff3cd; /* Amarelo claro */
+    border: 1px solid #ffeeba; /* Bordas amarelas suaves */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #856404; /* Cor escura para os subtítulos */
+    margin-top: 0; /* Remove margem superior dos subtítulos */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table th s{
+    background-color: #ffcc00; /* Cabeçalho da tabela amarelo */
+}
+form {
+    display: flex;
+    flex-direction: column; /* Formulário em coluna */
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #ff5722; /* Cor do botão de envio */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e64a19; /* Cor ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00; /* Cor do rodapé */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #333; /* Cor do texto do rodapé */
+}
